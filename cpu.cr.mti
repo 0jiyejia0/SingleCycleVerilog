@@ -1,0 +1,85 @@
+C:/Users/jiyejia/Desktop/CPU.v/RF.v {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/RF.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} C:/Users/jiyejia/Desktop/CPU.v/NPC.v {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/NPC.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}} C:/Users/jiyejia/Desktop/CPU.v/ALU.v {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/ALU.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/jiyejia/Desktop/CPU.v/Mux2to1_32bit.v {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/Mux2to1_32bit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Mux2to1_32bit
+
+Top level modules:
+	Mux2to1_32bit
+
+} {} {}} C:/Users/jiyejia/Desktop/CPU.v/im.v {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/im.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module IM
+
+Top level modules:
+	IM
+
+} {} {}} C:/Users/jiyejia/Desktop/CPU.v/CU.v {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/CU.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module CU
+
+Top level modules:
+	CU
+
+} {} {}} C:/Users/jiyejia/Desktop/CPU.v/cpu.v {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/cpu.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module PipelineCPU
+
+Top level modules:
+	PipelineCPU
+
+} {} {}} C:/Users/jiyejia/Desktop/CPU.v/SignExtend.v {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/SignExtend.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module SignExtend
+
+Top level modules:
+	SignExtend
+
+} {} {}} C:/Users/jiyejia/Desktop/CPU.v/DM.v {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/DM.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module DM
+
+Top level modules:
+	DM
+
+} {} {}} C:/Users/jiyejia/Desktop/CPU.v/cpu_tb.vt {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/cpu_tb.vt
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module PipelineCPU_tb
+
+Top level modules:
+	PipelineCPU_tb
+
+} {} {}} C:/Users/jiyejia/Desktop/CPU.v/Mux2to1_5bit.v {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/Mux2to1_5bit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Mux2to1_5bit
+
+Top level modules:
+	Mux2to1_5bit
+
+} {} {}} C:/Users/jiyejia/Desktop/CPU.v/pc.v {1 {vlog -work work -vopt -stats=none C:/Users/jiyejia/Desktop/CPU.v/pc.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}}

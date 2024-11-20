@@ -1,0 +1,318 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jiyejia/Desktop/Verilog CPU/cpu
+T_opt
+!s110 1716756882
+VCHCck0on5dN^jZfC]2mAJ3
+Z1 04 6 4 work CPU_tb fast 0
+=1-e89c256bac51-6653a192-1e0-5bc0
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1731885356
+VMEm1M2C1FJI:j0ZBHOELb3
+R1
+=1-e89c256bac51-673a792c-b8-15048
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vALU
+Z4 !s110 1716756816
+!i10b 1
+!s100 a00<XW?IlmFEijo^RO:7e3
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IL2mco`7nlN6aIB;i>NKd^2
+Z6 dC:/Users/jiyejia/Desktop/CPU.v
+w1716753704
+8C:/Users/jiyejia/Desktop/CPU.v/ALU.v
+FC:/Users/jiyejia/Desktop/CPU.v/ALU.v
+!i122 137
+L0 1 32
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1716756816.000000
+!s107 C:/Users/jiyejia/Desktop/CPU.v/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/ALU.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u
+vCPU
+R4
+!i10b 1
+!s100 m=Y07:o9M:ABRX:gU7:[T0
+R5
+IO`U??^gh]n8TnnOK`WGX;1
+R6
+w1716756807
+8C:/Users/jiyejia/Desktop/CPU.v/cpu.v
+FC:/Users/jiyejia/Desktop/CPU.v/cpu.v
+!i122 141
+L0 1 134
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/jiyejia/Desktop/CPU.v/cpu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/cpu.v|
+!i113 0
+R10
+R2
+n@c@p@u
+vCPU_tb
+!s110 1716756874
+!i10b 1
+!s100 W13OfE;dfL4m]b=U>1`gL1
+R5
+IKd`j^X>6Z`gzmldVbEGNG3
+R6
+w1716756864
+8C:/Users/jiyejia/Desktop/CPU.v/cpu_tb.vt
+FC:/Users/jiyejia/Desktop/CPU.v/cpu_tb.vt
+!i122 143
+L0 1 52
+R7
+R8
+r1
+!s85 0
+31
+!s108 1716756874.000000
+!s107 C:/Users/jiyejia/Desktop/CPU.v/cpu_tb.vt|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/cpu_tb.vt|
+!i113 0
+R10
+R2
+n@c@p@u_tb
+vCU
+R4
+!i10b 1
+!s100 ]0ne:jLc`iWKjLa0[dCzm0
+R5
+ISQQHZm?A[ZQQIXn:?ROAF2
+R6
+w1716756258
+8C:/Users/jiyejia/Desktop/CPU.v/CU.v
+FC:/Users/jiyejia/Desktop/CPU.v/CU.v
+!i122 136
+L0 1 68
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/jiyejia/Desktop/CPU.v/CU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/CU.v|
+!i113 0
+R10
+R2
+n@c@u
+vDM
+R4
+!i10b 1
+!s100 NNaSi1Ob6URef<mCC_IMi2
+R5
+I>O6bK`NS6]o_jl?R_zSPI0
+R6
+w1716754701
+8C:/Users/jiyejia/Desktop/CPU.v/DM.v
+FC:/Users/jiyejia/Desktop/CPU.v/DM.v
+!i122 139
+L0 1 19
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/jiyejia/Desktop/CPU.v/DM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/DM.v|
+!i113 0
+R10
+R2
+n@d@m
+vIM
+R4
+!i10b 1
+!s100 mPDWGS2kPmbJn0^5Ijh1b2
+R5
+IHA4cMJhdndaQEUZ37R1VG3
+R6
+w1716754695
+8C:/Users/jiyejia/Desktop/CPU.v/im.v
+FC:/Users/jiyejia/Desktop/CPU.v/im.v
+!i122 132
+L0 1 23
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/jiyejia/Desktop/CPU.v/im.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/im.v|
+!i113 0
+R10
+R2
+n@i@m
+vMux2to1_32bit
+R4
+!i10b 1
+!s100 :>3XNXoZm8:i]GcBSECW;3
+R5
+I<5:U0YzK6[JBZ_JJJ2KQ]1
+R6
+w1716753250
+8C:/Users/jiyejia/Desktop/CPU.v/Mux2to1_32bit.v
+FC:/Users/jiyejia/Desktop/CPU.v/Mux2to1_32bit.v
+!i122 134
+Z11 L0 1 10
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/jiyejia/Desktop/CPU.v/Mux2to1_32bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/Mux2to1_32bit.v|
+!i113 0
+R10
+R2
+n@mux2to1_32bit
+vMux2to1_5bit
+R4
+!i10b 1
+!s100 1IJ>n3T0IJ?d392228;mb0
+R5
+IFd95gKNaUN1CbWmaCakHe1
+R6
+w1716753209
+8C:/Users/jiyejia/Desktop/CPU.v/Mux2to1_5bit.v
+FC:/Users/jiyejia/Desktop/CPU.v/Mux2to1_5bit.v
+!i122 133
+R11
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/jiyejia/Desktop/CPU.v/Mux2to1_5bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/Mux2to1_5bit.v|
+!i113 0
+R10
+R2
+n@mux2to1_5bit
+vNPC
+R4
+!i10b 1
+!s100 5>SaEA<oV]hleLdCJUAJ33
+R5
+Ia:idKnUD2HBHFG:Qj[nBa3
+R6
+w1716753805
+8C:/Users/jiyejia/Desktop/CPU.v/NPC.v
+FC:/Users/jiyejia/Desktop/CPU.v/NPC.v
+!i122 138
+L0 1 18
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/jiyejia/Desktop/CPU.v/NPC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/NPC.v|
+!i113 0
+R10
+R2
+n@n@p@c
+vPC
+R4
+!i10b 1
+!s100 g<7E`dZ]eSl_nGYiXV2dX0
+R5
+IA^6j0lFlYEO9TaHaKkNXo3
+R6
+w1716752851
+8C:/Users/jiyejia/Desktop/CPU.v/pc.v
+FC:/Users/jiyejia/Desktop/CPU.v/pc.v
+!i122 131
+L0 1 16
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/jiyejia/Desktop/CPU.v/pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/pc.v|
+!i113 0
+R10
+R2
+n@p@c
+vRF
+R4
+!i10b 1
+!s100 N1>E4aaO8ROS`DLOQLafK3
+R5
+IFbYV=;4nL0:^HZCeWHnT01
+R6
+w1716755556
+8C:/Users/jiyejia/Desktop/CPU.v/RF.v
+FC:/Users/jiyejia/Desktop/CPU.v/RF.v
+!i122 140
+L0 1 48
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/jiyejia/Desktop/CPU.v/RF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/RF.v|
+!i113 0
+R10
+R2
+n@r@f
+vSignExtend
+R4
+!i10b 1
+!s100 9DQ2_=S8izBVWJeLlMGXM1
+R5
+Ik;iXGjjNWm<9bLHMDc7:i3
+R6
+w1716753323
+8C:/Users/jiyejia/Desktop/CPU.v/SignExtend.v
+FC:/Users/jiyejia/Desktop/CPU.v/SignExtend.v
+!i122 135
+L0 1 8
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/jiyejia/Desktop/CPU.v/SignExtend.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/jiyejia/Desktop/CPU.v/SignExtend.v|
+!i113 0
+R10
+R2
+n@sign@extend

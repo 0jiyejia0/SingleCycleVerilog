@@ -1,0 +1,52 @@
+module CPU_tb;
+
+// Testbench signals
+reg clk;
+reg clr;
+wire [31:0] r8, r16, r17, r18;
+wire [31:0] pc;
+
+// Instantiate the CPU
+CPU cpu (
+    .clk(clk),
+    .clr(clr),
+    .r8(r8),
+    .r16(r16),
+    .r17(r17),
+    .r18(r18),
+    .pc(pc)  // Expose PC to the testbench
+);
+
+// Clock generation
+always begin
+    #5 clk = ~clk; // 10 time units period
+end
+
+// Initialize memory with some instructions and data
+initial begin
+    // Initialize clock and clear
+    clk = 0;
+    clr = 1;
+
+    // Clear the memory and registers
+    #10 clr = 0;
+
+    // Run the test for a certain number of cycles or until PC >= 256
+    #1500 $finish; // Ensure the simulation finishes after 500 time units if not finished earlier
+end
+
+// Monitor the outputs and check for PC value
+always @(posedge clk) begin
+    if (pc >= 256) begin
+        $display("Simulation finished: PC reached 256.");
+        $finish;
+    end
+end
+
+// Monitor the outputs
+initial begin
+    $monitor("Time: %0d, PC: %h, Instruction: %h, qa: %h, qb: %h, ALU Result: %h, Mem Data: %h, r8: %h, r16: %h, r17: %h, r18: %h", 
+             $time, pc, cpu.instruction_memory.out, cpu.qa, cpu.qb, cpu.alu_result, cpu.data_memory.dout, r8, r16, r17, r18);
+end
+
+endmodule
